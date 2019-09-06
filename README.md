@@ -8,7 +8,17 @@
 
 | Behavior | Input | Output |
 | :----: | :----: | :----: |
-| | |
+| The program only accepts numerical input | "Twenty years" | "Please enter your age in years numerically." |
+| The program converts the input age into the equivalent number of years on the planet Mercury | "20" | "" |
+| The program converts the input age into the equivalent number of years on the planet Venus | "20" | "" |
+| The program converts the input age into the equivalent number of years on the planet Mars | "20" | "" |
+| The program converts the input age into the equivalent number of years on the planet Jupiter | "20" | "" |
+| The program calculates how many years the person has left to live on Mercury | "20" | "" |
+| The program calculates how many years the person has left to live on Venus | "20" | "" |
+| The program calculates how many years the person has left to live on Mars | "20" | "" |
+| The program calculates how many years the person has left to live on Jupiter | "20" | "" |
+| The program determines how many years ago the person should have died if the age they entered is greater than the average life expectancy | "" | "" |
+
 
 ## Setup/Installation Requirements
 
