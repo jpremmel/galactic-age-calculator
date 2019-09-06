@@ -22,7 +22,16 @@ describe ("AgeCalc", function() {
     expect(example.calcPlanetAges()[3][1]).toBe(1);
   });
   it ("should calculate how many Mercury years the person has left", function() {
-    expect(example.calcYearsLeft()[0][1]).toBe(295);
+    expect(example.calcYearsLeft()[0][1]).toBe(212);
+  });
+  it ("should calculate how many Venus years the person has left", function() {
+    expect(example.calcYearsLeft()[1][1]).toBe(82);
+  });
+  it ("should calculate how many Mars years the person has left", function() {
+    expect(example.calcYearsLeft()[2][1]).toBe(27);
+  });
+  it ("should calculate how many Jupiter years the person has left", function() {
+    expect(example.calcYearsLeft()[3][1]).toBe(4);
   });
 
 });

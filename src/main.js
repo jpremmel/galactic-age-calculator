@@ -8,4 +8,5 @@ $(document).ready(function() {
   let example = new AgeCalc(20);
   console.log(example.checkValidity());
   console.log(example.calcPlanetAges());
+  console.log(example.calcYearsLeft());
 });
