@@ -9,15 +9,15 @@
 | Behavior | Input | Output |
 | :----: | :----: | :----: |
 | The program only accepts numerical input | "Twenty years" | "Please enter your age in years numerically." |
-| The program converts the input age into the equivalent number of years on the planet Mercury | "20" | "" |
-| The program converts the input age into the equivalent number of years on the planet Venus | "20" | "" |
-| The program converts the input age into the equivalent number of years on the planet Mars | "20" | "" |
-| The program converts the input age into the equivalent number of years on the planet Jupiter | "20" | "" |
-| The program calculates how many years the person has left to live on Mercury | "20" | "" |
-| The program calculates how many years the person has left to live on Venus | "20" | "" |
-| The program calculates how many years the person has left to live on Mars | "20" | "" |
-| The program calculates how many years the person has left to live on Jupiter | "20" | "" |
-| The program determines how many years ago the person should have died if the age they entered is greater than the average life expectancy | "" | "" |
+| The program converts the input age into the equivalent number of years on the planet Mercury | "20" | "You are 83 years old on Mercury!" |
+| The program converts the input age into the equivalent number of years on the planet Venus | "20" | "You are 32 years old on Venus!" |
+| The program converts the input age into the equivalent number of years on the planet Mars | "20" | "You are 10.6 years old on Mars!" |
+| The program converts the input age into the equivalent number of years on the planet Jupiter | "20" | "You are 1 year old on Jupiter!" |
+| The program calculates how many years the person has left to live in Mercury years | "20" | "You have 212 more years to live on Mercury!" |
+| The program calculates how many years the person has left to live in Venus years | "20" | "You have 82 more years to live on Venus!" |
+| The program calculates how many years the person has left to live in Mars years | "20" | "You have 27 more years to live on Mars!" |
+| The program calculates how many years the person has left to live in Jupiter years | "20" | "You have 4 more years to live on Jupiter!" |
+| The program determines how many years ago the person should have died if the age they entered is greater than the average life expectancy | "110" | "On Earth, you should have died 39 years ago!" |
 
 
 ## Setup/Installation Requirements
