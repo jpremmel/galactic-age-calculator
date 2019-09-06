@@ -16,10 +16,8 @@ export class AgeCalc {
     const planetConversions = [["Mercury", 0.24], ["Venus", 0.62], ["Mars", 1.88], ["Jupiter", 11.86]];
     let planetAges = [];
     for (let i = 0; i < planetConversions.length; i++) {
-      let planet = planetConversions[i][0];
-      let conversionFactor = planetConversions[i][1];
-       let planetAge = this.earthAge / conversionFactor;
-      planetAges.push([planet, planetAge]);
+      let planetAge = parseInt(this.earthAge / planetConversions[i][1]);
+      planetAges.push([planetConversions[i][0], planetAge]);
     }
     return planetAges;
   }
