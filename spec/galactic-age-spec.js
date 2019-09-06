@@ -9,5 +9,17 @@ describe ("AgeCalc", function() {
     let example = new AgeCalc(20);
     expect(example.calcPlanetAges()[0][1]).toBe(83);
   });
+  it ("should convert the input age into Venus age", function() {
+    let example = new AgeCalc(20);
+    expect(example.calcPlanetAges()[1][1]).toBe(32);
+  });
+  it ("should convert the input age into Mars age", function() {
+    let example = new AgeCalc(20);
+    expect(example.calcPlanetAges()[2][1]).toBe(10);
+  });
+  it ("should convert the input age into Jupiter age", function() {
+    let example = new AgeCalc(20);
+    expect(example.calcPlanetAges()[3][1]).toBe(1);
+  });
 
 });
