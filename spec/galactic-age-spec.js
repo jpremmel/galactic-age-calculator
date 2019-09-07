@@ -47,5 +47,4 @@ describe ("AgeCalc", function() {
   it ("should calculate how many Jupiter years past life expectancy the person has lived", function() {
     expect(veryOldPerson.calcYearsLeft()[3][1]).toBe(4);
   });
-
 });

@@ -1,4 +1,3 @@
-
 export class AgeCalc {
   constructor(inputAge) {
   this.earthAge = inputAge;
@@ -40,5 +39,4 @@ export class AgeCalc {
     }
     return yearsLeft;
   }
-
 }
