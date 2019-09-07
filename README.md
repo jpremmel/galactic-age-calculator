@@ -11,7 +11,7 @@
 | The program only accepts numerical input | "Twenty years" | "Please enter your age in years numerically." |
 | The program converts the input age into the equivalent number of years on the planet Mercury | "20" | "You are 83 years old on Mercury!" |
 | The program converts the input age into the equivalent number of years on the planet Venus | "20" | "You are 32 years old on Venus!" |
-| The program converts the input age into the equivalent number of years on the planet Mars | "20" | "You are 10.6 years old on Mars!" |
+| The program converts the input age into the equivalent number of years on the planet Mars | "20" | "You are 10 years old on Mars!" |
 | The program converts the input age into the equivalent number of years on the planet Jupiter | "20" | "You are 1 year old on Jupiter!" |
 | The program calculates how many years the person has left to live in Mercury years | "20" | "You have 212 more years to live on Mercury!" |
 | The program calculates how many years the person has left to live in Venus years | "20" | "You have 82 more years to live on Venus!" |
