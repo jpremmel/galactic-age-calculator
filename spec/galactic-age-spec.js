@@ -2,8 +2,10 @@ import { AgeCalc } from './../src/galactic-age-calc.js';
 
 describe ("AgeCalc", function() {
   let example;
+  let veryOldPerson;
   beforeEach(function() {
     example = new AgeCalc(20);
+    veryOldPerson = new AgeCalc(110);
   });
   it("should only accept numerical input", function() {
     let invalidExample = new AgeCalc("Twenty years");
@@ -32,6 +34,18 @@ describe ("AgeCalc", function() {
   });
   it ("should calculate how many Jupiter years the person has left", function() {
     expect(example.calcYearsLeft()[3][1]).toBe(4);
+  });
+  it ("should calculate how many Mercury years past life expectancy the person has lived", function() {
+    expect(veryOldPerson.calcYearsLeft()[0][1]).toBe(163);
+  });
+  it ("should calculate how many Venus years past life expectancy the person has lived", function() {
+    expect(veryOldPerson.calcYearsLeft()[1][1]).toBe(63);
+  });
+  it ("should calculate how many Mars years past life expectancy the person has lived", function() {
+    expect(veryOldPerson.calcYearsLeft()[2][1]).toBe(21);
+  });
+  it ("should calculate how many Jupiter years past life expectancy the person has lived", function() {
+    expect(veryOldPerson.calcYearsLeft()[3][1]).toBe(4);
   });
 
 });

@@ -17,7 +17,10 @@
 | The program calculates how many years the person has left to live in Venus years | "20" | "You have 82 more years to live on Venus!" |
 | The program calculates how many years the person has left to live in Mars years | "20" | "You have 27 more years to live on Mars!" |
 | The program calculates how many years the person has left to live in Jupiter years | "20" | "You have 4 more years to live on Jupiter!" |
-| The program determines how many years ago the person should have died if the age they entered is greater than the average life expectancy | "110" | "On Earth, you've lived 39 years past life expectancy!" |
+| The program determines how many Mercury years past life expectancy the person has lived (if any) | "110" | "On Mercury, you've lived 163 years past life expectancy!" |
+| The program determines how many Venus years past life expectancy the person has lived (if any) | "110" | "On Venus, you've lived 63 years past life expectancy!" |
+| The program determines how many Mars years past life expectancy the person has lived (if any) | "110" | "On Mars, you've lived 21 years past life expectancy!" |
+| The program determines how many Jupiter years past life expectancy the person has lived (if any) | "110" | "On Jupiter, you've lived 4 years past life expectancy!" |
 
 
 ## Setup/Installation Requirements

@@ -25,12 +25,18 @@ export class AgeCalc {
   calcYearsLeft() {
     const earthLifeExpectancy = 71;
     let yearsLeft = [];
-    for (let i = 0; i < this.planetConversions.length; i++) {
-      let planet = this.planetConversions[i][0];
-      let conversionFactor = this.planetConversions[i][1];
-      let planetLifeExpectancy = parseInt(earthLifeExpectancy / conversionFactor);
-      let planetYearsLeft = planetLifeExpectancy - this.calcPlanetAges()[i][1];
-      yearsLeft.push([this.planetConversions[i][0], planetYearsLeft]);
+    if (this.earthAge <= earthLifeExpectancy) {
+      for (let i = 0; i < this.planetConversions.length; i++) {
+        let planetLifeExpectancy = parseInt(earthLifeExpectancy / this.planetConversions[i][1]);
+        let planetYearsLeft = planetLifeExpectancy - this.calcPlanetAges()[i][1];
+        yearsLeft.push([this.planetConversions[i][0], planetYearsLeft]);
+      }
+    } else if (this.earthAge > earthLifeExpectancy) {
+      for (let i = 0; i < this.planetConversions.length; i++) {
+        let planetLifeExpectancy = parseInt(earthLifeExpectancy / this.planetConversions[i][1]);
+        let planetExtraYears = this.calcPlanetAges()[i][1] - planetLifeExpectancy;
+        yearsLeft.push([this.planetConversions[i][0], planetExtraYears]);
+      }
     }
     return yearsLeft;
   }
